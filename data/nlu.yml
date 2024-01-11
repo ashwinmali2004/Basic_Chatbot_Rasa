@@ -1,0 +1,287 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: Andhra_Pradesh_state
+  examples: |
+    - tell me about Andhra pradesh
+    - information on Andhra pradesh
+    - What is capital of Andhra pradesh
+    - what is famous food and places Andhra pradesh
+
+- intent: Arunachal_Pradesh_state
+  examples: |
+    - tell me about arunachal pradesh
+    - information on arunachal pradesh
+    - What is capital of arunachal pradesh
+    - what is famous food and places arunachal pradesh
+
+- intent: Assam_state
+  examples: |
+    - tell me about Assam 
+    - information on Assam 
+    - What is capital of Assam 
+    - what is famous food and places Assam 
+
+- intent: Bihar_state
+  examples: |
+    - tell me about Bihar
+    - information on Bihar
+    - What is capital of Bihar
+    - what is famous food and places Bihar
+
+- intent: Chhattisgarh_state
+  examples: |
+    - tell me about Chhattisgarh  
+    - information on Chhattisgarh 
+    - What is capital of Chhattisgarh 
+    - what is famous food and places Chhattisgarh 
+
+- intent: Goa_state
+  examples: |
+    - tell me about Goa  
+    - information on Goa 
+    - What is capital of Goa 
+    - what is famous food and places Goa 
+  
+- intent: Gujarat_state
+  examples: |
+    - tell me about Gujarat  
+    - information on Gujarat 
+    - What is capital of Gujarat 
+    - what is famous food and places Gujarat 
+
+- intent: Haryana_state
+  examples: |
+    - tell me about Haryana  
+    - information on Haryana 
+    - What is capital of Haryana 
+    - what is famous food and places Haryana
+
+- intent: Himachal_Pradesh_state
+  examples: |
+    - tell me about Himachal Pradesh  
+    - information on Himachal Pradesh 
+    - What is capital of Himachal Pradesh 
+    - what is famous food and places Himachal Pradesh
+
+- intent: Jharkhand_state
+  examples: |
+    - tell me about Jharkhand  
+    - information on Jharkhand 
+    - What is capital of Jharkhand 
+    - what is famous food and places Jharkhand
+
+- intent: Karnataka_state
+  examples: |
+    - tell me about Karnataka  
+    - information on Karnataka 
+    - What is capital of Karnataka 
+    - what is famous food and places Karnataka
+
+- intent: Kerala_state
+  examples: |
+    - tell me about Kerala  
+    - information on Kerala 
+    - What is capital of Kerala 
+    - what is famous food and places Kerala
+
+- intent: Madhya_Pradesh_state
+  examples: |
+    - tell me about Madhya Pradesh  
+    - information on Madhya Pradesh 
+    - What is capital of Madhya Pradesh 
+    - what is famous food and places Madhya Pradesh
+
+- intent: Maharashtra_state
+  examples: |
+    - tell me about Maharashtra  
+    - information on Maharashtra 
+    - What is capital of Maharashtra 
+    - what is famous food and places Maharashtra
+
+- intent: Manipur_state
+  examples: |
+    - tell me about Manipur  
+    - information on Manipur 
+    - What is capital of Manipur 
+    - what is famous food and places Manipur
+
+- intent: Meghalaya_state
+  examples: |
+    - tell me about Meghalaya  
+    - information on Meghalaya 
+    - What is capital of Meghalaya 
+    - what is famous food and places Meghalaya
+
+- intent: Mizoram_state
+  examples: |
+    - tell me about Mizoram  
+    - information on Mizoram 
+    - What is capital of Mizoram 
+    - what is famous food and places Mizoram
+
+- intent: Nagaland_state
+  examples: |
+    - tell me about Nagaland  
+    - information on Nagaland 
+    - What is capital of Nagaland 
+    - what is famous food and places Nagaland
+
+- intent: Odisha_state
+  examples: |
+    - tell me about Odisha  
+    - information on Odisha 
+    - What is capital of Odisha 
+    - what is famous food and places Odisha
+
+- intent: Punjab_state
+  examples: |
+    - tell me about Punjab  
+    - information on Punjab 
+    - What is capital of Punjab 
+    - what is famous food and places Punjab
+
+- intent: Rajasthan_state
+  examples: |
+    - tell me about Rajasthan  
+    - information on Rajasthan 
+    - What is capital of Rajasthan 
+    - what is famous food and places Rajasthan
+
+- intent: Sikkim_state
+  examples: |
+    - tell me about Sikkim  
+    - information on Sikkim 
+    - What is capital of Sikkim 
+    - what is famous food and places Sikkim
+
+- intent: Tamil_Nadu_state
+  examples: |
+    - tell me about Tamil Nadu  
+    - information on Tamil Nadu 
+    - What is capital of Tamil Nadu 
+    - what is famous food and places Tamil Nadu
+
+- intent: Telangana_state
+  examples: |
+    - tell me about Telangana  
+    - information on Telangana 
+    - What is capital of Telangana 
+    - what is famous food and places Telangana
+
+- intent: Tripura_state
+  examples: |
+    - tell me about Tripura  
+    - information on Tripura 
+    - What is capital of Tripura 
+    - what is famous food and places Tripura
+
+- intent: Uttarakhand_state
+  examples: |
+    - tell me about Uttarakhand  
+    - information on Uttarakhand 
+    - What is capital of Uttarakhand 
+    - what is famous food and places Uttarakhand
+
+- intent: Uttar_Pradesh_state
+  examples: |
+    - tell me about Uttar Pradesh  
+    - information on Uttar Pradesh 
+    - What is capital of Uttar Pradesh 
+    - what is famous food and places Uttar Pradesh
+
+- intent: West_Bengal_state
+  examples: |
+    - tell me about West Bengal  
+    - information on West Bengal 
+    - What is capital of West Bengal 
+    - what is famous food and places West Bengal

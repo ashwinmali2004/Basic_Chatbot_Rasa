@@ -1,0 +1,144 @@
+version: "3. ."
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path  .
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path  .
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: state1
+  steps:
+  - intent: Andhra_Pradesh_state
+  - action: utter_Andhra_Pradesh_state
+- story: state2
+  steps:
+  - intent: Arunachal_Pradesh_state
+  - action: utter_Arunachal_Pradesh_state
+- story: state3
+  steps:
+  - intent: Assam_state
+  - action: utter_Assam_state
+- story: state4
+  steps:
+  - intent: Bihar_state
+  - action: utter_Bihar_state
+- story: state5
+  steps:
+  - intent: Chhattisgarh_state
+  - action: utter_Chhattisgarh_state
+- story: state6
+  steps:
+  - intent: Goa_state
+  - action: utter_Goa_state
+- story: state7
+  steps:
+  - intent: Gujarat_state
+  - action: utter_Gujarat_state
+- story: state8
+  steps:
+  - intent: Haryana_state
+  - action: utter_Haryana_state
+- story: state9
+  steps:
+  - intent: Himachal_Pradesh_state
+  - action: utter_Himachal_Pradesh_state
+- story: state10
+  steps:
+  - intent: Jharkhand_state
+  - action: utter_Jharkhand_state
+- story: state11
+  steps:
+  - intent: Karnataka_state
+  - action: utter_Karnataka_state
+- story: state12
+  steps:
+  - intent: Kerala_state
+  - action: utter_Kerala_state
+- story: state13
+  steps:
+  - intent: Madhya_Pradesh_state
+  - action: utter_Madhya_Pradesh_state
+- story: state14
+  steps:
+  - intent: Maharashtra_state
+  - action: utter_Maharashtra_state
+- story: state15
+  steps:
+  - intent: Manipur_state
+  - action: utter_Manipur_state
+- story: state16
+  steps:
+  - intent: Meghalaya_state
+  - action: utter_Meghalaya_state
+- story: state17
+  steps:
+  - intent: Mizoram_state
+  - action: utter_Mizoram_state
+- story: state18
+  steps:
+  - intent: Nagaland_state
+  - action: utter_Nagaland_state
+- story: state19
+  steps:
+  - intent: Odisha_state
+  - action: utter_Odisha_state
+- story: state20
+  steps:
+  - intent: Punjab_state
+  - action: utter_Punjab_state
+- story: state21
+  steps:
+  - intent: Rajasthan_state
+  - action: utter_Rajasthan_state
+- story: state22
+  steps:
+  - intent: Sikkim_state
+  - action: utter_Sikkim_state
+- story: state23
+  steps:
+  - intent: Tamil_Nadu_state
+  - action: utter_Tamil_Nadu_state
+- story: state24
+  steps:
+  - intent: Telangana_state
+  - action: utter_Telangana_state
+- story: state25
+  steps:
+  - intent: Tripura_state
+  - action: utter_Tripura_state
+- story: state26
+  steps:
+  - intent: Uttarakhand_state
+  - action: utter_Uttarakhand_state
+- story: state27
+  steps:
+  - intent: Uttar_Pradesh_state
+  - action: utter_Uttar_Pradesh_state
+- story: state28
+  steps:
+  - intent: West_Bengal_state
+  - action: utter_West_Bengal_state
+  

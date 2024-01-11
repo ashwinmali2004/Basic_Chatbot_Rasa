@@ -1,0 +1,7 @@
+machine learning
+->ann
+->cnn
+->rnn(study)
+ -lstm
+ -encoder and ecoder
+ -bert(alexa, google assistant)
